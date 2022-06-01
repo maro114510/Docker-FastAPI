@@ -73,7 +73,7 @@ jobs:
           pkg-manager: poetry
       - run:
           command: |
-            poetry run pytest --version
+            poetry run config virtualenvs.in-project true
           name: Test it
 workflows:
   main:
