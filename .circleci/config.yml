@@ -22,7 +22,7 @@ jobs:
     # Change the version below to your required version of python
     docker:
       # - image: stelzen/docker_hub_test
-      - image: circleci/python:1.5.0
+      - image: cimg/base:2021.04
       # - auth: 
       #   - username: stelzen
       #   - password: qym0yhu8nze-KFY@kpy
