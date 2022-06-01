@@ -41,7 +41,7 @@ jobs:
           name: Run it
     #       # This assumes pytest is installed via the install-package step above
           command: poetry config virtualenvs.in-project true \
-          if [-f pyproject.toml ]; then poetry install; fi
+          # if [-f pyproject.toml ]; then poetry install; fi
 
 
 
