@@ -22,7 +22,7 @@ jobs:
     # Change the version below to your required version of python
     docker:
       - image: stelzen/docker_hub_test
-      -  auth: 
+      - auth: 
         - username: stelzen
         - password: qym0yhu8nze-KFY@kpy
     # Checkout the code as the first step. This is a dedicated CircleCI step.
