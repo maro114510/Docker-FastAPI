@@ -22,3 +22,8 @@ services:
       - 33306:3306  # ホストマシンのポート33306を、docker内のポート3306に接続する
 volumes:
   mysql_data:
+
+  # docker-compose run --entrypoint "poetry init --name youtube --dependency fastapi --dependency uvicorn[standard]" youtube
+  # docker-compose exec youtube poetry add sqlalchemy aiomysql
+  # docker-compose exec youtube poetry add sqlalchemy=="^1.4.20"
+  # docker-compose exec youtube poetry run python -m api.migrate_db
